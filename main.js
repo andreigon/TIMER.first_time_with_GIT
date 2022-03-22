@@ -11,16 +11,16 @@ const stopButton = document.querySelector('.stop')
 const newButton = document.querySelector('.new')
 
 // listeners
-startButton.addEventListener('click,touched',() => {
+startButton.addEventListener('vclick',() => {
 clearInterval(interval)
 interval=setInterval(startTimer,10)
 });
 
-pauseButton.addEventListener('click,touched',() => {
+pauseButton.addEventListener('vclick',() => {
     clearInterval(interval)
 });
 
-stopButton.addEventListener('click,touched',() => {
+stopButton.addEventListener('vclick',() => {
     clearInterval(interval)
     clearTimer()
 });
