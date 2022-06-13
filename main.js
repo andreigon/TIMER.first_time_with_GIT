@@ -72,9 +72,6 @@ function startTimer()
         minuteElement.innerText=minute
         confirm("расчет окончен")
     }
-        
-    
-
     /* if (minute>59) {
         hour++
         hourElement.innerText="0" +hour
@@ -95,8 +92,6 @@ function startTimer()
     }*/
     
 }    
-
-
  function clearTimer() {
     hour = 00,
     minute = 00,
@@ -107,12 +102,3 @@ function startTimer()
     secondElement.textContent = "00"
     millisecondElement.textContent = "00"
  }
-/*
- newButton.addEventListener('click', () => {
-     clearInterval(interval)
-     const results = document.querySelector('.results')
-     const block = document.createElement('div')
-    
-     results.append(block)
- })
- */
